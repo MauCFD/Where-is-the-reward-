@@ -33,6 +33,10 @@ def data_page():
 def brief():
     return render_template('brief.html')   
 
+@app.route("/machineLearning.html")
+def analysis():
+    return render_template('machineLearning.html')   
+
 @app.route("/dashboard.html")
 def dashboard():
     return render_template('dashboard.html')   
